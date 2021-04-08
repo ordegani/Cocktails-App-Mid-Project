@@ -7,7 +7,7 @@
   --main: #9C7C45;
   --sub: rgb(246, 247, 250);
   background-size: 100vh 100vh;
-  background-image: url("/Users/ordegani/my-appi/src/ggolden.jpg");
+  background-image: url("./ggolden.jpg");
 }
 .maincontainer{
   min-height:100vh;

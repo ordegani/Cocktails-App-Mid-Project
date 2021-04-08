@@ -92,7 +92,7 @@ border:solid 2px var(--main);
   margin-left:15%;
   margin-right:15%;
 
-  background-image: url("/Users/ordegani/my-appi/src/ggolden.jpg");
+  background-image: url("./ggolden.jpg");
   background-size:450vh 450vh;
 
 }

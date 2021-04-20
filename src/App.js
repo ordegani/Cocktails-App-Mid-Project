@@ -64,7 +64,7 @@ export const Main = () => {
 
     if (!isExists) {
       setFavourites([...favourites, savedRecipe]);
-      alert(`Saved </br> >`);
+      alert(`Saved &darr;`);
       console.log(favourites);
     }
   };

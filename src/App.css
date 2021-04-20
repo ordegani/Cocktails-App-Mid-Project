@@ -50,6 +50,13 @@
   color:  var(--main);
   
 }
+.recipes{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color:  var(--main);
+  
+}
 .recipe{
 display:flex;
 flex-direction: column;

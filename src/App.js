@@ -64,7 +64,7 @@ export const Main = () => {
 
     if (!isExists) {
       setFavourites([...favourites, savedRecipe]);
-      alert(`Saved U+261F`);
+      alert(`Saved ☟`);
       console.log(favourites);
     }
   };

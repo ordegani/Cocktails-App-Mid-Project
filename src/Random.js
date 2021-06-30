@@ -132,18 +132,20 @@ export const Mainn = () => {
       setQuery(search);
       setSearch("");
     };
-   
+
     //form + map() recipes.
     //create 'title', which 'meyatzeg'info from recipe.recipe.label. create 'calories', 'image', inggredients.
     //recipe => (return jsx)
     return (
+     
       <div className="maincontainer">
-  
         {/* {!isWatchingSaved &&
         <> */}
 
   
         <div className="recipes">
+       
+
           {recipes.slice(9).map((recipe, index) => (
             <Recipe
               key={index}

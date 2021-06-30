@@ -66,6 +66,7 @@ export const Main = () => {
       setFavourites([...favourites, savedRecipe]);
       alert(`Saved ☟`);
       console.log(favourites);
+
     }
   };
 
@@ -132,6 +133,7 @@ export const Main = () => {
       <div className="recipes">
         {recipes.map((recipe, index) => (
           <Recipe
+            key={index}
             key={index}
             id={index}
             title={recipe.recipe.label}

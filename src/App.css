@@ -84,8 +84,7 @@
 }
 .navUl {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-around; 
   list-style: none;
   font-size: 20px;
   font-family: "Playfair Display", serif;
@@ -196,6 +195,8 @@
   .navUl {
     font-size: 10px;
     font-family: "Playfair Display", serif; 
+    display: flex;
+    justify-content: flex-start; 
   }
 
   .image {
@@ -213,5 +214,7 @@
     background-color: var(--sub);
     border: solid 2px var(--main);
   }
-
+.navUl>li{
+  padding: 2px;
+}
 }

@@ -116,19 +116,20 @@ border:solid 2px var(--main);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 5vw;
 }
 .helloMessage{
 
-  background-color: rgb(243, 233, 233); 
+  background-color: black; 
   color: var(--main);
   border: var(--main) 2px double;
   text-align: center;
-  font-weight:bold;
-  text-shadow:  1px 1px var(--main);
+  
   font-size: 25px;
+  font-weight: lighter;
   /* border-radius: 60px; */
-  padding:8rem;
-
+  padding:5vw;
+  font-family: 'Playfair Display', serif;
 
   
 }
@@ -193,12 +194,13 @@ padding:25px 25px 25px 25px;
 /* mobile */
 @media (max-width:414px){
   .helloMessage{
-    background-color: rgb(243, 233, 233); 
+    background-color: black; 
     max-width: 100%;
     display:flex;
     font-weight:lighter;    
     font-size: 30px;
-    padding:none;    
+    padding:none;  
+    font-family: 'Playfair Display', serif;  
   }
   .helloContainer{
     display: flex;

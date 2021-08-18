@@ -18,7 +18,7 @@ function App() {
 
           
           <Route path="/helloPage" component={HelloPage} />
-          <Route exact path="/Main" component={Main} />
+          <Route exact path="/" component={Main} />
            <Route exact path="/info" component={Info} /> 
            <Route exact path="/Random" component={Mainn} />
 

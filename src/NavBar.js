@@ -7,8 +7,8 @@ function Navbar() {
         <div>
             <ul className="navUl">
                 
-                <li><Link className="link" to="/hellopage">Hello</Link></li>
-                <li><Link className="link" to="/">Main</Link></li>
+                <li><Link className="link" to="/hellopage">HappyHour</Link></li>
+                <li><Link className="link" to="/">Search</Link></li>
                 <li><Link className="link" to="/info">More Info</Link></li>
                 <li><Link className="link" to="/random">Surprise Me</Link></li>
                 {/* </ul>li> <Link to={`/Favourites/`}>Ann's Profile</Link></li> */}

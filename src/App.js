@@ -6,7 +6,7 @@ import NavBar from "./NavBar";
 import RecipeIngredients from "./RecipeIngredients";
 import Recipe from "./Recipe";
 import Info from "./Info";
-import Mainn from "./Random";
+import Random from "./Random";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/helloPage" component={HelloPage} />
           <Route exact path="/" component={Main} />
           <Route exact path="/info" component={Info} />
-          <Route exact path="/Random" component={Mainn} />
+          <Route exact path="/Random" component={Random} />
         </Switch>
       </BrowserRouter>
     </div>

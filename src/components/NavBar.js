@@ -7,7 +7,7 @@ function Navbar() {
         <div>
             <ul className="navUl">
                 
-                <li><Link className="link" to="/hellopage">HappyHour</Link></li>
+                <li><Link className="link" to="/welcome">HappyHour</Link></li>
                 <li><Link className="link" to="/">Search</Link></li>
                 <li><Link className="link" to="/info">More Info</Link></li>
                 <li><Link className="link" to="/random">Surprise Me</Link></li>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 
-const HelloPage = () => {
+const Welcome = () => {
   return (
     <div className="helloContainer">
       <div className="helloMessage">
@@ -33,4 +33,4 @@ const HelloPage = () => {
   );
 };
 
-export default HelloPage;
+export default Welcome;

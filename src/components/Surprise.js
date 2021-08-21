@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
-import Recipe from "../Recipe";
+import Recipe from "./recipe/Recipe";
 
 export const Random = () => {
   //save my edamam ID and KEY as consts

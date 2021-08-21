@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Recipe from "../Recipe";
+import Recipe from "./recipe/Recipe";
+import '../App.css';
 
 const Main = () => {
   //save my edamam ID and KEY as consts

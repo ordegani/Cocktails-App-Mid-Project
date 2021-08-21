@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-/*@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');*/
 
-/* desktop */
-/* @media (min-width:415px){ */
 :root {
   --main: #9c7c45;
   --sub: rgb(246, 247, 250);
@@ -12,7 +9,6 @@
 .maincontainer {
   min-height: 100vh;
   font-family: "Playfair Display", serif;
-  /*font-family: 'Spicy Rice', cursive;*/
   border-bottom: black 2px solid;
 }
 
@@ -40,7 +36,6 @@
   padding: 10px 20px;
   color: var(--sub);
   font-family: "Playfair Display", serif;
-  /*font-family: 'Spicy Rice', cursive;*/
 }
 .recipes {
   display: flex;
@@ -88,16 +83,11 @@
   list-style: none;
   font-size: 20px;
   font-family: "Playfair Display", serif;
-  /* background-color: var(--sub); */
   border: double 2px var(--main);
   margin-left: 15%;
   margin-right: 15%;
   background-color: #1c1c1c;
-
-  /* background-image: url("./ggolden.jpg");
-  background-size:450vh 450vh; */
 }
-
 .savedList {
   border-radius: 60px 60px 60px 60px;
   border: none;
@@ -118,14 +108,9 @@
 
   font-size: 25px;
   font-weight: lighter;
-  /* border-radius: 60px; */
   padding: 5vw;
   font-family: "Playfair Display", serif;
 }
-/* .recipesIngredients{ */
-/* border: none; */
-/* padding:25px 25px 25px 25px; */
-/* } */
 #totalRecipeIngredients {
   color: black;
   background-color: white;
@@ -175,7 +160,9 @@
 .caloriesMessage {
   border: var(--main) 2px solid;
 }
+
 /* mobile */
+
 @media (max-width: 414px) {
   .helloMessage {
     background-color: black;

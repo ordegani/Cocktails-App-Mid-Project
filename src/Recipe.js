@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
 
-//import SavedList from './SavedList'
-
 const Recipe = ({
   title,
   calories,
